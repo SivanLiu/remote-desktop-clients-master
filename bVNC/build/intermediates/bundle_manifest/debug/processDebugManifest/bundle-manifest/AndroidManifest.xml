@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iiordanov.aSPICE"
+    android:installLocation="auto"
+    android:versionCode="114073"
+    android:versionName="v4.0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="27" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name="com.iiordanov.bVNC.App"
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:icon="@drawable/icon_aspice"
+        android:label="@string/aspice_app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.iiordanov.bVNC.aSPICE"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/aspice_app_name"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppThemeWithToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.bVNC.RemoteCanvasActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|density|screenLayout"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="spice" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.vnc" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="application/vnd.spice" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.bVNC.ConnectionListActivity"
+            android:label="@string/shortcut_label_spice"
+            android:resizeableActivity="true"
+            android:theme="@style/AppThemeWithToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.iiordanov.pubkeygenerator.GeneratePubkeyActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_pubkey_generator"
+            android:resizeableActivity="true"
+            android:screenOrientation="unspecified"
+            android:theme="@style/AppThemeWithToolbar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false" >
+        </uses-library>
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:resource="@dimen/app_defaultsize_w" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:resource="@dimen/app_defaultsize_h" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:resource="@dimen/app_minimumsize_w" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:resource="@dimen/app_minimumsize_h" />
+        <meta-data
+            android:name="com.samsung.android.keepalive.density"
+            android:value="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+v4.0.7
+- 64-bit support
+- Bugfixes
+v4.0.6
+- Bugfix for TLS_FALLBACK_SCSV issue with TLSv1.3+ for VeNCrypt
+- Bugfix to sshlib for sha2-256 and sha2-512 keys
+- Support for shorthand VNC port notation for ports lower than 5920
+v4.0.5
+- Logcat copy from previous runs as well
+v4.0.4
+- Fix for scrolling in Single Handed mode
+v4.0.3
+- Updated sshlib
+v4.0.2
+- Fixes for widget names
+- Fixes for Fit-to-screen scaling
+- Default Input Mode support
+v4.0.1
+- Text contrast fix for certain devices
+- Targeting new APIs
+- Fix for Menu + immersive mode live-lock on some devices
+v4.0.0
+- Input mode bugfixes
+- Security and protocol library updates
+v3.9.9
+- Fix for IMEs that use META_SHIFT_ON
+- Fix for right-click in TouchPad mode
+- ExtendedDesktopSize support for TigerVNC
+v3.9.7
+- New, relocatable toolbar
+- Numerous bugfixes
+- Library upgrades
+v3.9.6
+- Multi-window/DEX support
+v3.9.5
+- Several bugfixes
+v3.9.4
+- Security updates
+- Numerous bugfixes
+v3.9.1
+- Bugfix for Gboard
+v3.9.0
+- Bugfix for generating SSH key on empty connection
+v3.8.9
+- Fix for race condition in saving SSH host key on newer devices
+v3.8.8
+- Left-handed mode
+- New ssh lib
+- Landscape 180
+- Polish translation
+v3.8.6
+- New Global options in Main Menu: Force Landscape, Immersive Mode Disable, Keep Screen Awake
+v3.8.4
+- Immersive mode!
+v3.8.2
+- Better error reporting
+v3.8.1
+- Better support for AnonTLS

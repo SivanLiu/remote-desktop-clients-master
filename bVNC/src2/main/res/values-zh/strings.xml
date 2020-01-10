@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="ad_donate_text0">专业版现在支持多因素身份验证。此外，它还支持要求很高的“主密码”功能，该功能可防止未经授权的使用，并对所有连接设置（包括密码和SSH密钥）进行加密，避免信息泄漏。可以选择从主菜单启用它，如果缺少菜单按钮，请长按菜单中正在运行的应用程序按钮。</string>
+    <string name="ad_donate_text1">请点击此处进行少量捐赠购买专业版</string>
+    <string name="ad_donate_text2">专业版可以禁用此对话框，并且可以使用高级功能。</string>
+    <string name="ad_donate_text3">如果您想进一步支持该项目，请访问以下链接，获得以下客户端应用程序的链接: </string>
+    <string name="ad_donate_text_rdp">专业版本的aRDP现在支持声音重定向!</string>
+    <string name="ad_donate_text_spice">专业版本的aSPICE现在支持USB重定向; 只需在连接钱插入OTG即可。.</string>
+
+    <string name="address_caption">VNC 服务器</string>
+    <string name="address_caption_hint">VNC 服务器</string>
+    <string name="address_caption_hint_tunneled">VNC 服务器</string>
+    <string name="address_caption_ssh">SSH 服务器</string>
+    <string name="address_caption_ssh_hint">SSH 服务器</string>
+
+    <string name="alt_check">Alt</string>
+
+    <string name="ardp_app_name">aRDP 专业版</string>
+
+    <string name="arrow_down">下</string>
+    <string name="arrow_left">左</string>
+    <string name="arrow_right">右</string>
+    <string name="arrow_up">上</string>
+
+    <string name="aspice_app_name">aSPICE 专业版</string>
+
+    <string name="auto">自动</string>
+    <string name="auto_x_cancel">取消</string>
+    <string name="auto_x_caption">bVNC可以在Linux / UNIX系统（类似于NX）上自动发现现有会话并创建新的X会话。您需要使用x11vnc来查找，并且需要Xvfb，Xvnc或Xdummy来创建会话。如果连接时遇到问题，请尝试在“AutoX高级设置”中选择特定的远程会话类型。</string>
+    <string name="auto_x_confirm">确认</string>
+    <string name="auto_x_descript_geom">远程桌面分辨率 (WxH)</string>
+    <string name="auto_x_descript_session">远程会话类型</string>
+    <string name="auto_x_disabled">禁用</string>
+    <string name="auto_x_disabled_selection">自定禁用</string>
+    <string name="auto_x_enabled">启用</string>
+    <string name="auto_x_find">仅查找，不创建会话</string>
+    <string name="auto_x_find_login">查找 X 登录名（要求sudo权限）</string>
+    <string name="auto_x_geom_custom">Custom</string>
+    <string name="auto_x_geom_native">Native</string>
+    <string-array name="auto_x_geometry">
+        <item>@string/auto_x_geom_native</item>
+        <item>@string/auto_x_geom_custom</item>
+    </string-array>
+    <string-array name="auto_x_session">
+        <item>@string/auto_x_session_auto</item>
+        <item>@string/auto_x_session_custom</item>
+        <item>@string/auto_x_session_kde</item>
+        <item>@string/auto_x_session_unity</item>
+        <item>@string/auto_x_session_unity_2d</item>
+        <item>@string/auto_x_session_xfce</item>
+        <item>@string/auto_x_session_gnome</item>
+        <item>@string/auto_x_session_gnome_cl</item>
+        <item>@string/auto_x_session_trinity</item>
+        <item>@string/auto_x_session_mate</item>
+    </string-array>
+    <string name="auto_x_session_auto">Auto</string>
+    <string name="auto_x_session_custom">Custom</string>
+    <string name="auto_x_session_gnome">GNOME</string>
+    <string name="auto_x_session_gnome_cl">GNOME Classic</string>
+    <string name="auto_x_session_kde">KDE</string>
+    <string name="auto_x_session_mate">MATE</string>
+    <string name="auto_x_session_trinity">Trinity</string>
+    <string name="auto_x_session_unity">Unity</string>
+    <string name="auto_x_session_unity_2d">Unity2D</string>
+    <string name="auto_x_session_xfce">Xfce</string>
+    <string name="auto_x_title">Configure AutoX</string>
+    <string-array name="auto_x_type">
+        <!-- If adding selections, they need to be in sync with values
+        declared in VncConstants for conversion bet. selection and commands
+        to work properly. -->
+        <item>@string/auto_x_disabled_selection</item>
+        <item>@string/auto_x_xvfb</item>
+        <item>@string/auto_x_xvnc</item>
+        <item>@string/auto_x_xdummy</item>
+        <item>@string/auto_x_find</item>
+        <item>@string/auto_x_find_login</item>
+    </string-array>
+    <string name="auto_x_unix_auth">通过用户提供的SSH用户名/密码进行认证（进入黑色登录屏幕）。</string>
+    <string name="auto_x_unixpw">使用UNIX凭据而不是内置的安全性机制，用户必须能够运行/bin/su 命令</string>
+    <string name="auto_x_xdummy">通过Xdummy查找并且创建会话</string>
+    <string name="auto_x_xvfb">通过Xvfb查找并且创建会话</string>
+    <string name="auto_x_xvnc">通过Xvnc查找并且创建会话</string>
+
+    <string name="button_send_text">发送文本消息</string>
+    <string name="button_send_without_saving">发送文本消息/不保存</string>
+
+    <string name="bvnc_app_name">bVNC 专业版</string>
+
+    <string name="center_mouse">鼠标 @</string>
+
+    <string name="close">关闭</string>
+
+    <string name="color_format_caption">色彩模式</string>
+    <string name="color_mode">色彩模式</string>
+
+    <string name="connect_button">连接</string>
+
+    <string name="connection_caption">连接</string>
+    <string-array name="connection_type">
+        <item>@string/connection_type_vnc</item>
+        <item>@string/connection_type_vnc_over_ssh</item>
+        <item>@string/connection_type_ultravnc</item>
+        <item>@string/connection_type_vnc_over_ssl</item>
+        <item>@string/connection_type_vnc_over_vencrypt</item>
+        <item>@string/connection_type_vnc_over_stunnel</item>
+    </string-array>
+    <string name="connection_type_caption">连接类型</string>
+    <string name="connection_type_rdp">RDP</string>
+    <string name="connection_type_rdp_over_ssh">SSH RDP</string>
+    <string name="connection_type_spice">SPICE</string>
+    <string name="connection_type_spice_over_ssh">SSH SPICE</string>
+    <string name="connection_type_ultravnc">UltraVNC</string>
+    <string name="connection_type_vnc">Basic VNC</string>
+    <string name="connection_type_vnc_over_ssh">Secure VNC over SSH</string>
+    <string name="connection_type_vnc_over_ssl">Secure VNC over AnonTLS</string>
+    <string name="connection_type_vnc_over_stunnel">Secure VNC over SSL Tunnel</string>
+    <string name="connection_type_vnc_over_vencrypt">Secure VNC over VeNCrypt</string>
+
+    <string name="control_check">Ctrl</string>
+
+    <string name="copy_list_button">复制列表</string>
+
+    <string name="ctrl_alt_del">Ctrl-Alt-Del</string>
+
+    <string name="default_input_mode">默认输入模式</string>
+    <string name="delete_connection">删除连接</string>
+    <string name="delete_key">删除所选密钥</string>
+    <string name="delete_key_list">删除密钥列表</string>
+
+    <string name="disconnect">断开</string>
+
+    <string name="dpad_as_arrows">将D-Pad用于箭头，将D-Pad单击用于Ctrl.</string>
+
+    <string name="enable_recording">启用录音</string>
+    <string name="enable_sound">启用声音</string>
+
+    <string name="enter_text">发文字消息</string>
+    <string name="enter_text_title">输入文本发送</string>
+
+    <string name="error_anon_dh_unsupported">VNC服务器正在尝试使用Android设备不支持的匿名Diffie Hellman密码。如果使用GNOME的Vino VNC服务器，则可以通过在终端中运行以下命令，然后重新启动来禁用AnonTLS：\“ gsettings set org.gnome.Vino require-encryption false \”。如果运行x11vnc，则可以添加以下选项：\“-vencrypt nodh：only -ssl \”。</string>
+    <string name="error_connection_failed">连接失败。</string>
+    <string name="error_connection_interrupted">连接中断。</string>
+    <string name="error_no_user_hostname">请至少输入一个用户和一个主机名或IP地址。</string>
+    <string name="error_out_of_memory">内存不足，无法渲染远程屏幕。尝试重新启动设备和应用程序。您也可以尝试通过应用设置来改变远程桌面的大小。</string>
+    <string name="error_ovirt_unable_to_connect">无法连接或认证，请检查服务器地址，用户，密码以及证书。</string>
+    <string name="error_pick_correct_item">请确保“连接类型”是否选择正确。</string>
+    <string name="error_rdp_authentication_failed">RDP 认证失败! 请检查 RDP 用户名和密码，尝试重新输入。</string>
+    <string name="error_rdp_connection_failed">RDP 连接失败！网络连接中断，RDP 服务器已关闭或禁用，或者会话被接管</string>
+    <string name="error_rdp_unable_to_connect">无法连接到 RDP 服务器！请确保 RDP 服务器设置正确，服务器已打开，启用了 RDP，并且服务器与该设备位于同一网络上</string>
+    <string name="error_security_type">服务器未提供所支持的安全性类型连接。</string>
+    <string name="error_spice_unable_to_connect">无法连接或认证，请检查服务器地址，密码以及证书。</string>
+    <string name="error_ssh_could_not_exec_command">无法执行远程指令。</string>
+    <string name="error_ssh_could_not_send_sudo_pwd">禁止发送 root 密码。</string>
+    <string name="error_ssh_hostkey_changed">错误！服务器主机密钥已更改。如果必须这样做，请删除会话并重新创建连接; 否则，这可能是中间人的攻击; 停止连接。</string>
+    <string name="error_ssh_kbd_auth_method_unavail">SSH服务器既不支持\“ password \”也不支持\“ keyboard-interactive \” auth方法，或者需要\“ publickey \”方法。请对其进行配置以允许这两种方法中的至少一种，或者重新配置bVNC。可用的身份验证方法：</string>
+    <string name="error_ssh_key_auth_fail">使用密钥对对SSH服务器进行身份验证失败。请检查您的SSH用户名，并确保您的公共密钥在远程端的authorized_keys文件中。</string>
+    <string name="error_ssh_keypair_decryption_failure">解密密钥对失败。请确保您已在主屏幕的“ SSH密码”字段中输入了正确的密码。</string>
+    <string name="error_ssh_keypair_missing">尚未生成SSH密钥对！请生成一个并将其（其公共部分）放入SSH服务器上的authorized_keys中。</string>
+    <string name="error_ssh_passphrase_but_keypair_unencrypted">提供了密码，但密钥对未加密。请删除密码。</string>
+    <string name="error_ssh_port_forwarding_failure">通过SSH隧道传输VNC流量不能设置端口转发。请确保您的SSH服务器配置为允许端口转发，然后进行重试。</string>
+    <string name="error_ssh_pubkey_auth_method_unavail">SSH服务器不支持\“ publickey \”身份验证方法，我们正在尝试使用密钥对进行身份验证。请配置它以允许公钥身份验证，然后重试。可用的身份验证方法： </string>
+    <string name="error_ssh_pwd_auth_fail">无法使用密码对SSH服务器进行身份验证。请检查您的SSH用户名和SSH密码。</string>
+    <string name="error_ssh_unable_to_connect">连接SSH服务器失败。请检查网络连接以及SSH服务器地址和端口。</string>
+    <string name="error_ssh_x11vnc_no_port_failure">无法从x11vnc获取远程VNC端口。请确保已安装x11vnc。然后请尝试在命令行上手动运行x11vnc。</string>
+    <string name="error_uri_noinfo_nosave">提供的连接信息不足。</string>
+    <string name="error_vnc_authentication">VNC验证失败！检查VNC密码。</string>
+    <string name="error_vnc_unable_to_connect">“与VNC服务器的连接失败，原因如下：”</string>
+    <string name="error_x509_could_not_generate_encoding">无法生成证书编码。</string>
+    <string name="error_x509_could_not_generate_signature">无法生成证书的SHA1或MD5签名。找不到SHA1 / MD5算法。</string>
+
+    <string name="export_settings">导出</string>
+    <string name="export_settings_path"/>
+
+    <string name="extra_keys_disable">禁用额外的键</string>
+    <string name="extra_keys_enable">启用额外键</string>
+
+    <string name="fit_to_screen">适应屏幕</string>
+
+    <string name="force">全屏</string>
+
+    <string name="freeardp_app_name">aRDP Free</string>
+
+    <string name="freeaspice_app_name">aSPICE Free</string>
+
+    <string name="freebvnc_app_name">bVNC Free</string>
+
+    <string name="immersive_mode_disable">禁用沉浸模式</string>
+
+    <string name="import_export_settings">导入/导出设置</string>
+    <string name="import_settings">导入</string>
+    <string name="import_settings_file_url"/>
+
+    <string name="info">信息</string>
+    <string name="info_cert_signatures">"证书信息: "</string>
+    <string name="info_cert_signatures_identical">\n\n您可以确保信息与服务器证书匹配，避免中间人攻击。</string>
+    <string name="info_cert_tunnel">是否要连接到以下证书标识的主机？\n\n指纹：％1$s\n\n颁发给：\n％2$s\n\n颁发者：\n％3$s\n\n有效期自：\n％4$s\n\n有效期至：\n％5$s\n\n注意：bVNC不验证证书颁发机构或检查证书吊销。</string>
+    <string name="info_continue_connecting">"继续连接到: "</string>
+    <string name="info_encoding">" 编码方式, "</string>
+    <string name="info_progress_dialog_aborted">连接中止!</string>
+    <string name="info_progress_dialog_connecting">连接中…</string>
+    <string name="info_progress_dialog_downloading">下载第一帧.\n请耐心等待…</string>
+    <string name="info_progress_dialog_establishing">建立握手。\n请耐心等待…</string>
+    <string name="info_ssh_initializing_hostkey">尝试初始化SSH HostKey.</string>
+    <string name="info_ssh_key_fingerprint">"主机密钥指纹为: "</string>
+    <string name="info_ssh_key_fingerprint_identical">\n\n您可以确保它与服务器证书的已知指纹相同，以防止中间人攻击.</string>
+    <string name="info_update_color_model_to">"将颜色模型更新为 "</string>
+
+    <string name="input_method_direct_drag_pan_description">Direct, Hold Pan: Swipe to drag and drop. Tap with one finger wherever you want to left-click, two fingers to right-click, and three fingers to middle-click. Swipe with two fingers to scroll. Long tap to start panning.</string>
+    <string name="input_method_direct_swipe_pan_description">Direct, Swipe Pan: Swipe to pan around. Tap with one finger wherever you want to left-click, two fingers to right-click, and three fingers to middle-click. Swipe with two fingers to scroll. Long tap to drag and drop.</string>
+    <string name="input_method_single_handed_description">Single Handed: Swipe to pan around. Tap with one finger wherever you want to left-click. Long tap to choose left/right/middle drag/scroll/zoom mode. Usual multi-touch controls also work.</string>
+    <string name="input_method_touchpad_description">Simulated Touchpad: Swipe to move pointer. Tap anywhere with one finger to left-click, two fingers to right-click, and three fingers to middle-click. Swipe with two fingers to scroll. Long tap to drag and drop.</string>
+    <string name="input_mode">输入模式</string>
+    <string name="input_mode_drag_pan_zoom_mouse">Direct, Hold Pan</string>
+    <string name="input_mode_fit_to_screen">No Pan; Trackball Mouse</string>
+    <string name="input_mode_help">输入模式帮助</string>
+    <string name="input_mode_help_text">
+"In any Input Mode, tap the keyboard icon to get the on-screen keyboard. Also, your device may have its own gesture which bring up the keyboard.
+
+Use the Direct input modes for more intuitive touch-screen control. Use Simulated Touchpad Mode for finer control over the mouse.
+
+Direct, Swipe Pan Mode:
+ - Control the mouse directly through touch.
+ - Swipe to pan around.
+ - Tapping makes the mouse click where you tapped.
+ - Scroll events are sent between the two fingers where a two-finger swipe started.
+
+Direct, Hold Pan Mode:
+ - Control the mouse directly through touch.
+ - Long-tap to start pan mode.
+ - Tapping makes the mouse click where you tapped.
+ - Scroll events are sent between the two fingers where a two-finger swipe started.
+
+Simulated Touchpad Mode:
+ - Use your screen like a touchpad.
+ - Swipe to move the mouse pointer around.
+ - Move mouse beyond edge of screen to pan.
+ - Tapping makes the mouse click where the pointer is.
+ - Scroll events are sent where the mouse pointer is located.
+
+Single Handed Mode:
+ - Same as Direct, Swipe Pan Mode, except long-tap opens menu with choice of modes.
+ - After choosing mode, swiping finger on screen performs selected gesture.
+ - Lifting finger completes the gesture.
+
+All Input Modes:
+ - Left-click: Tap once.
+ - Double-click: Double-tap.
+ - Right-click: Tap-hold and tap with a second finger (anywhere else on screen).
+ - Alternate Right-click: Use the \"Back\" button or gesture for your device.
+ - Middle-click: Tap-hold and tap with two more fingers (anywhere else on screen).
+ - Mouse-drag: Tap-hold-long and swipe.
+ - Scroll-wheel: Two-finger drag up/down and left/right. Quick drag scrolls faster.
+ - Zoom in/out: In Zoomable scaling, pinch-zoom to control scaling.
+ - Ctrl/Alt key: Menu-&gt;Ctrl/Alt buttons. Don't forget to toggle off when done!
+ - Key combos: Menu-&gt;More-&gt;Send Keys.
+ - Send text: Either type on the on-screen keyboard, or use Menu-&gt;More-&gt;Send Text."
+</string>
+    <string name="input_mode_mouse">鼠标指针控制</string>
+    <string name="input_mode_panning">Desktop Panning Mode</string>
+    <string name="input_mode_single_handed">Single Handed</string>
+    <string name="input_mode_touch_pan_zoom_mouse">Direct, Swipe Pan</string>
+    <string name="input_mode_touchpad">Simulated Touchpad</string>
+
+    <string name="intro_close">Close</string>
+    <string name="intro_dont_show">Don\'t show again</string>
+    <string name="intro_header"/>
+    <string name="intro_text">
+"Current list of bVNC features:
+&lt;br&gt;
+- Plain VNC, Secure VNC over SSH, AnonTLS, and VeNCrypt, and UltraVNC Windows Logon with optional Repeater.
+&lt;br&gt;
+- AutoX mode: In VNC over SSH mode, automatically discover existing and/or create new X-sessions using x11vnc! Works like NX client.
+&lt;br&gt;
+- Free rotation support. Use Operating System to limit rotation if needed.
+&lt;br&gt;
+- SSH Public/Private key-pair generation and export.
+&lt;br&gt;
+- All standard VNC encodings, including Tight, ZRLE, and CopyRect.
+&lt;br&gt;
+- Automatic Session saving.
+&lt;br&gt;
+- Zoomable, Fit to Screen, and One to One scaling modes.
+&lt;br&gt;
+- Multi-touch control over remote mouse in Direct and Simulated Touchpad input modes.
+&lt;br&gt;
+- Full single-handed control over remote mouse in Single-Handed input mode.
+&lt;br&gt;
+- Multi-touch mouse clicks: tap to Left-click, two-finger tap to right-click, three-finger-tap to middle click.
+&lt;br&gt;
+- Multi-touch scrolling: two finger drag Up/Down, and Left/Right to scroll.
+&lt;br&gt;
+- On-screen meta and arrow keys which can be completely disabled from menu or stowed with on-screen button.
+&lt;br&gt;
+- Sending Text and arbitrary Key combinations when connected.
+&lt;br&gt;
+- Help with creating connections (\"Menu-&gt;Connection Help\") in connection screen.
+&lt;br&gt;
+- Help with input modes (\"Menu-&gt;More-&gt;Input Mode Help\") when connected.
+&lt;br&gt;
+- Using an available trackpad as Arrows instead of moving the mouse, and trackpad click as Ctrl.
+&lt;br&gt;
+- Switching to portrait mode during connections, rotating D-pad/trackpad for BT keyboards.
+&lt;br&gt;
+- Multi-language support, as long as the VNC server has the necessary language layout enabled.
+&lt;br&gt;
+- Copy/Paste integration
+&lt;br&gt;
+- Remote machine resolution changes
+&lt;br&gt;
+- Full mouse support on Android 4.0+ devices, including right and middle click and scroll wheel.
+&lt;br&gt;
+&lt;br&gt;
+Known issues:
+&lt;br&gt;"
+</string>
+    <string name="intro_title">bVNC: 简洁，安全的VNC客户端</string>
+    <string name="intro_version_text"/>
+
+    <string name="keep_password_button">记住密码</string>
+    <string name="keep_screen_awake_enable">保持屏幕唤醒</string>
+
+    <string name="keys_caption">Keys</string>
+
+    <string name="landscape_force">Force Landscape Orientation</string>
+
+    <string name="left_handed_mode">左手模式</string>
+
+    <string name="list_caption">列表</string>
+    <string name="list_name_caption">列表名称</string>
+
+    <string name="local_mouse_check">本地鼠标指针（如果指针不可见，请选择）</string>
+
+    <string name="main_screen_help">连接帮助</string>
+    <string name="main_screen_help_text">
+"When you first start bVNC, you will see a connection configuration page. Here you can set up a new VNC connection, or choose a preexisting one. The page is divided into two sections. The top section contains a drop-down list of the connection configurations you've created previously. The first time your run bVNC, you will only be able to make a new connection. Next to the list is a Connect button. The Connect button will start the VNC client with the currently selected configuration. Below that is where you configure your connection.
+
+If you are looking for a quick performance boost, try setting the Color mode to a lower value. Also, try removing any desktop background image on the VNC server. Finally, ensure your device has good network connectivity and avoid covering its antenna and reducing the signal strength.
+
+ - Connection Type: Here you choose the VNC connection type. Available connection types are:
+   (a) Plain VNC, which is  supported by all VNC servers but lacks encryption and is vulnerable to brute-force attacks due to an 8-character password limitation.
+   (b) Secure VNC over SSH, which connects over an encrypted SSH tunnel. You need an SSHD service running as well as a VNC server. As long as the VNC server does not accept connections directly from the Internet, this connection type suffers no known vulnerabilities, as long as you verify the server certificate signature when first connecting.
+   (c) UltraVNC, which gives you Windows Logon and UltraVNC Repeater options. Using Windows Logon does not suffer from the 8-character password limitation, but this mode offers no encryption, so your session is vulnerable to sniffing.
+   (d) Secure VNC over AnonTLS, which is regular VNC over a stunnel-equivalent connection. You either need to run stunnel, or use a VNC server like Vino which supports AnonTLS out of the box. This mode gives you session encryption, but suffers from the 8-character password limitation and does not prevent man-in-the-middle attacks.
+   (e) Secure VNC over VeNCrypt, which uses x509 certificates as well as session encryption, and depending on the server configuration can use user/password credentials with no 8-character limitation. This mode prevents man-in-the-middle attacks. as well as providing session privacy. Servers like x11vnc and TigerVNC support this mode and are as secure as VNC over SSH. 
+
+ - Title: Each connection you create can have a nickname to easily identify it on the list.
+ 
+ - SSH Tunnel Settings: Available in VNC over SSH mode.
+   (a) SSH Server/Port: The address and port of the SSH server that the connection will be tunnelled through. By default SSH listens on port 22.
+   (b) Username/Password: The username and password of the account on the SSH server. The password will be filled in on this page if you haven't quit bVNC since you last entered it.
+   (c) Manage Key/Use Key: A button to manage public/private keys, and a checkbox indicating whether to use a key rather than password to authenticate. If you use the Copy to Clipboard button after generating a key-pair, you should be able to paste the public key once connected to the VNC server (the clipboard is synchronized to the server).
+
+ - Configure AutoX: Available only in VNC over SSH mode. bVNC can automatically discover existing and optionally create new X sessions on UNIX systems (like NX client). You need x11vnc to find, and Xvfb, Xvnc, or Xdummy installed on the remote system to create sessions. You may have to move away your .dmrc file and add a .xinit file in your home directory if your desktop doesn't look proper or you are getting just an xterm window.
+
+ - VNC Connection Settings:
+   (a) VNC Server/Port: This is where you enter the host name or IP address and port of the computer running the VNC server that you wish to contact. In VNC over SSH mode, this address is as seen from the SSH Server. If the SSH Server and VNC server are the same computer, you can use localhost. VNC servers typically listen starting at port 5900 (the first VNC screen, screen :0).
+   (b) VNC User: Available in UltraVNC with Windows Logon mode, or Secure VNC over VeNCrypt, this is where you enter your Windows/UNIX account username.
+   (c) VNC Password: If your VNC server configuration requires a password, enter that password here. In UltraVNC with Windows Logon/VeNCrypt modes, put your Windows/UNIX account password here. Secure storage is not used for passwords, and the password will be stored only if you check the "Keep" box. The password will be filled in on this page if you haven't quit bVNC since you last entered it.
+
+ - Color Mode: The client supports several color modes. Modes with more colors provide a better visual experience at the expense of greater bandwidth and more CPU computation on your device. Some VNC servers do not support all color depths (e.g. OS/X Remote Desktop requires 24-bit color). If you are having trouble connecting, try another color depth.
+
+ - Use D-Pad for arrows: If you prefer, you can use the D-Pad of your Bluetooth keyboard or arrows on your on-screen keyboard to send arrows to the VNC server.
+
+ - Rotate D-Pad: Phones paired with a Bluetooth keyboard may need the keyboard's D-pad to be rotated anti-clockwise to send correct directions to the server.
+ 
+ - Local mouse pointer: Some VNC servers (e.g. OS/X Remote Desktop) will not draw the mouse pointer on the client. Checking this option will cause bVNC to draw a small square at the mouse position. 
+
+ - Auto/Fullscreen Bitmap: The VNC client uses a bitmap to represent the remote display. For very large remote displays, especially in fit-to-screen mode, you may experience strange visual artifacts when in fit-to-screen mode, due to per-process memory limitations. If that happens, try checking this option. Keep in mind that checking the option may cause bVNC to quit on connection.
+
+ - Repeater: Available only in UltraVNC mode. IMPORTANT: If you have an UltraVNC repeater, enter its address and port outside the \'UltraVNC Repeater\' dialog and enter the address and port of the actual VNC server inside the \'UltraVNC Repeater\' Dialog. Separate VNC server\'s address and port with a colon, e.g. 192.168.0.100:5900."</string>
+
+    <string name="master_password_enable">启用主密码</string>
+    <string name="master_password_error_failed_to_disable">无法禁用主密码。检查设备上的可用空间，然后重试。</string>
+    <string name="master_password_error_failed_to_enable">无法启用主密码。检查设备上的可用空间，然后重试。</string>
+    <string name="master_password_error_intents_not_supported">启用主密码后，尚不支持连接视图。</string>
+    <string name="master_password_error_password_necessary">需要主密码才能继续。</string>
+    <string name="master_password_error_password_not_set">设置主密码被取消。</string>
+    <string name="master_password_error_shortcuts_not_supported">启用主密码后，尚不支持快捷方式。</string>
+    <string name="master_password_error_wrong_password">无法使用提供的主密码进行身份验证。</string>
+    <string name="master_password_hint_once">输入密码</string>
+    <string name="master_password_hint_twice">重复输入密码</string>
+    <string name="master_password_set">设置主密码</string>
+    <string name="master_password_set_error">密码不一致，请检查!</string>
+    <string name="master_password_set_message">Please enter and memorize a Master Password. The longer your password, the harder it is to crack. If you set your password wrong or forget it, you will lose all your settings! You may want to export your settings now to back them up (from the Menu). Store them safely as exported settings are not encrypted.</string>
+    <string name="master_password_verify">Verify Master Password</string>
+    <string name="master_password_verify_message">Please enter correct Master Password to continue.</string>
+
+    <string name="meta_key_title">发送特殊按键</string>
+
+    <string name="mouse_follow_pan">Mouse follows pan</string>
+
+    <string name="new_connection">新的连接</string>
+    <string name="new_list_button">新列表</string>
+
+    <string name="nickname_caption">Nickname</string>
+    <string name="nickname_caption_hint">标题 (可选)</string>
+
+    <string name="off">关闭</string>
+
+    <string name="one_to_one">一对一</string>
+
+    <string name="open_doc">Manual/Wiki</string>
+
+    <string name="pan_follow_mouse">Pan follows mouse</string>
+
+    <string name="password_caption">VNC 认证。</string>
+    <string name="password_caption_hint">VNC 密码。</string>
+    <string name="password_caption_ssh">SSH 认证。</string>
+    <string name="password_hint_ssh">SSH 密码</string>
+
+    <string name="port_caption">VNC 端口</string>
+    <string name="port_caption_ssh">SSH 端口</string>
+    <string name="port_hint">端口</string>
+    <string name="port_ssh_hint">端口</string>
+
+    <string name="portrait_mode">Switch to portrait mode when connected</string>
+
+    <string name="pro_feature_mfa">It appears your server has multi-factor authentication enabled. Please support the project by purchasing the Pro version which has support for this feature. A link to the Pro version is available in the start dialog.</string>
+
+    <string name="rdp_address_caption_hint">RDP 服务器</string>
+    <string name="rdp_adv_console_mode">控制台模式</string>
+    <string name="rdp_adv_desktop_background">显示桌面壁纸</string>
+    <string name="rdp_adv_desktop_composition">Enable Desktop Composition</string>
+    <string name="rdp_adv_font_smoothing">Perform font smoothing</string>
+    <string name="rdp_adv_menu_animation">Show Menu Animations</string>
+    <string name="rdp_adv_redirect_sdcard">重定向 SD 卡</string>
+    <string name="rdp_adv_remotefx">启用 RemoteFX</string>
+    <string name="rdp_adv_visual_styles">Enable Visual Styles</string>
+    <string name="rdp_adv_window_contents">Show window contents while dragging</string>
+    <string-array name="rdp_connection_type">
+        <item>@string/connection_type_rdp</item>
+        <item>@string/connection_type_rdp_over_ssh</item>
+    </string-array>
+    <string name="rdp_descript_geom">Remote Desktop Size (WxH)</string>
+    <string name="rdp_domain_hint">RDP Domain</string>
+    <string name="rdp_geom_automatic">自动</string>
+    <string name="rdp_geom_checkbox_enable">Enable custom resolution</string>
+    <string name="rdp_geom_custom">Custom</string>
+    <string name="rdp_geom_description_hint">The server needs ExtendedDesktopSize support</string>
+    <string name="rdp_geom_disabled">Disabled</string>
+    <string name="rdp_geom_native_landscape">Native Landscape</string>
+    <string name="rdp_geom_native_portrait">Native Portrait</string>
+    <string-array name="rdp_geometry">
+        <item>@string/rdp_geom_native_landscape</item>
+        <item>@string/rdp_geom_native_portrait</item>
+        <item>@string/rdp_geom_custom</item>
+    </string-array>
+    <string-array name="vnc_geometry">
+        <item>@string/rdp_geom_disabled</item>
+        <item>@string/rdp_geom_automatic</item>
+        <item>@string/rdp_geom_native_landscape</item>
+        <item>@string/rdp_geom_native_portrait</item>
+        <item>@string/rdp_geom_custom</item>
+    </string-array>
+    <string name="rdp_intro_text">
+"Thank you for supporting aRDP and open-source software in general! For help with using aRDP, see the Help items in the Menu, and the description of the app in the market.
+&lt;br&gt;
+&lt;br&gt;
+Current list of aRDP features includes:
+&lt;br&gt;
+- Plain RDP, RDP tunneled over SSH.
+&lt;br&gt;
+- Free rotation support. Use Operating System to limit rotation if needed.
+&lt;br&gt;
+- Setting of remote resolution, native resolution in landscape and portrait modes.
+&lt;br&gt;
+- SSH Public/Private key-pair generation and export.
+&lt;br&gt;
+- Automatic Session saving.
+&lt;br&gt;
+- Zoomable, Fit to Screen, and One to One scaling modes.
+&lt;br&gt;
+- Multi-touch control over remote mouse in Direct and Simulated Touchpad input modes.
+&lt;br&gt;
+- Full single-handed control over remote mouse in Single-Handed input mode.
+&lt;br&gt;
+- Multi-touch mouse clicks: tap to Left-click, two-finger tap to right-click, three-finger-tap to middle click.
+&lt;br&gt;
+- Multi-touch scrolling: two finger drag Up/Down, and Left/Right to scroll.
+&lt;br&gt;
+- On-screen meta and arrow keys which can be completely disabled from menu or stowed with on-screen button.
+&lt;br&gt;
+- Sending Text and arbitrary Key combinations when connected.
+&lt;br&gt;
+- Help with creating connections (\"Menu-&gt;Connection Help\") in connection screen.
+&lt;br&gt;
+- Help with input modes (\"Menu-&gt;More-&gt;Input Mode Help\") when connected.
+&lt;br&gt;
+- Using an available trackpad as Arrows instead of moving the mouse, and trackpad click as Ctrl, rotating D-pad/trackpad for BT keyboards.
+&lt;br&gt;
+- Multi-language support, as long as the VNC server has the necessary language layout enabled.
+&lt;br&gt;
+- Seamless remote machine resolution changes
+&lt;br&gt;
+- Full mouse support on Android 4.0+ devices, including right and middle click and scroll wheel.
+&lt;br&gt;
+&lt;br&gt;
+Planned features of aRDP include:
+&lt;br&gt;
+- A choice of color modes
+&lt;br&gt;
+- Copy/Paste integration
+&lt;br&gt;
+- Exporting settings
+&lt;br&gt;
+- Sound
+&lt;br&gt;
+&lt;br&gt;
+Known issues:
+</string>
+    <string name="rdp_intro_title">aRDP: 简洁、安全的 RDP 客户端</string>
+    <string name="rdp_main_screen_help_text">
+"When you first start aRDP, you will see a connection configuration page. Here you can set up a new RDP connection, or choose a preexisting one. The page is divided into two sections. The top section contains a drop-down list of the connection configurations you've created previously. The first time your run aRDP, you will only be able to make a new connection. Next to the list is a Connect button. The Connect button will start the RDP client with the currently selected configuration. Below that is where you configure your connection.
+
+ - Connection Type: Here you choose the RDP connection type. Available connection types are:
+   (a) RDP, which connects directly to a computer over the RDP protocol.
+   (b) RDP over SSH, which first tunnels your connection through a computer running an SSH server.
+
+ - Title: Each connection you create can have a nickname to easily identify it on the list.
+ 
+ - SSH Tunnel Settings: Available in RDP over SSH mode.
+   (a) SSH Server/Port: The address and port of the SSH server that the connection will be tunnelled through. By default SSH listens on port 22.
+   (b) Username/Password: The username and password of the account on the SSH server. The password will be filled in on this page if you haven't quit bVNC since you last entered it.
+   (c) Manage Key/Use Key: A button to manage public/private keys, and a checkbox indicating whether to use a key rather than password to authenticate. If you use the Copy to Clipboard button after generating a key-pair, you should be able to paste the public key once connected to the VNC server (the clipboard is synchronized to the server).
+
+ - RDP Connection Settings:
+   (a) RDP Server/Port: This is where you enter the host name or IP address and port of the computer running the RDP server that you wish to contact. In RDP over SSH mode, this address is as seen from the SSH Server. If the SSH Server and RDP server are the same physical computer, you can use localhost. RDP servers typically listen on port 3389.
+   (b) RDP User: This is where you enter your Windows/UNIX account user name.
+   (c) RDP Domain: Enter the domain your account belongs to.
+   (d) RDP Password: This si where you enter your Windows/UNIX account password. Secure storage is not used for passwords (they are in a database), and the password will be stored only if you check the "Keep" box. The password will be filled in on this page if you haven't quit aRDP since you last entered it.
+
+ - Advanced settings: In this section you'll find a ways to customize the resolution of the desktop, and various RDP performance tweaks
+ 
+ - Local Device Tweaks: These adjust the behavior of aRDP on your device.
+   (a) Use D-Pad for arrows: If you prefer, you can use the D-Pad of your Bluetooth keyboard or arrows on your on-screen keyboard to send arrows to the RDP server.
+   (b) Rotate D-Pad: Phones paired with a Bluetooth keyboard may need the keyboard's D-pad to be rotated anti-clockwise to send correct directions to the server.
+   (c) Local mouse pointer: If the pointer is invisible, select this to force it to be drawn by aRDP.</string>
+    <string name="rdp_password_hint">RDP 密码</string>
+    <string name="rdp_server_empty">RDP 服务器或者端口为空。无法连接!</string>
+    <string name="rdp_username_hint">RDP 用户名</string>
+
+    <string name="remote_sound_disabled">禁用声音</string>
+    <string name="remote_sound_on_device">设备声音</string>
+    <string name="remote_sound_on_server">服务器声音</string>
+
+    <string name="repeater_button">UltraVNC Repeater</string>
+    <string name="repeater_caption">IMPORTANT: If using a UltraVNC repeater, enter its address and port outside this dialog. Here, enter the address and port of the actual VNC server. Separate the VNC server\'s address and port with a colon, e.g. 192.168.0.100:5900.</string>
+    <string name="repeater_caption_hint">UltraVNC Repeater</string>
+    <string name="repeater_clear">不用</string>
+    <string name="repeater_dialog_title">VNC Server Behind Repeater</string>
+    <string name="repeater_empty_text">No repeater</string>
+    <string name="repeater_save">Use</string>
+
+    <string name="right_alt_as_iso_l3_shift">R-Alt as ISO L3 Shift (VNC only)</string>
+
+    <string name="rotate_dpad">旋转蓝牙或软件D-Pad</string>
+
+    <string name="save_as_copy">另存为副本</string>
+
+    <string name="scaling">缩放比例</string>
+    <string name="scaling_zoomable">可缩放</string>
+
+    <!-- Send selected metakey -->
+    <string name="send_button">发送</string>
+    <string name="send_key_again">再次发送 key</string>
+
+    <string name="shift_check">Shift</string>
+
+    <string name="shortcut_label_vnc">VNC 连接</string>
+    <string name="shortcut_label_rdp">RDP 连接</string>
+    <string name="shortcut_label_spice">SPICE 连接</string>
+
+    <string name="showkbd_label">键盘</string>
+
+    <string name="single_cancel">单手模式取消</string>
+    <string name="single_choose">选择单手模式或取消</string>
+    <string name="single_left">左拖动模式 - 滑动来拖动/选择, 抬起手指停止</string>
+    <string name="single_middle">中拖模式 - 滑动来拖动/选择, 抬起手指停止</string>
+    <string name="single_reposition">鼠标指针重新定位为单手模式</string>
+    <string name="single_right">右拖拽模式- 滑动来拖动/选择, 抬起手指停止</string>
+    <string name="single_scroll">滚动模式 - 向上/向下滑动来滚动, 抬起手指停止</string>
+    <string name="single_zoom">缩放模式 - 向上/下滑动来放大或者缩小，抬起手指停止</string>
+
+    <string name="snap_one_to_one">捕捉 1：1 缩放</string>
+
+    <string name="special_keys">发送 keys</string>
+
+    <string name="spice_address_caption_hint">SPICE 服务器</string>
+    <string name="spice_button_import_ca">导入 CA</string>
+    <string name="spice_ca_cert_path_hint">证书颁发机构文件的路径</string>
+    <string name="spice_ca_file_error_reading">读取CA文件时出错。请确保它可读。</string>
+    <string name="spice_ca_file_not_found">文件未找到。请在文本字段中输入有效的文件名(e.g. /sdcard/ca-cert.pem).</string>
+    <string name="spice_cert_subject_hint">证书主题</string>
+    <string-array name="spice_connection_type">
+        <item>@string/connection_type_spice</item>
+        <item>@string/connection_type_spice_over_ssh</item>
+    </string-array>
+    <string name="spice_intro_text">
+"Thank you for supporting aSPICE and open-source software in general! For help with using aSPICE, see the Help items in the Menu, and the description of the app in the market.
+&lt;br&gt;
+&lt;br&gt;
+Current list of aSPICE features includes:
+&lt;br&gt;
+- Plain SPICE, SPICE tunneled over SSH.
+&lt;br&gt;
+- Free rotation support. Use Operating System to limit rotation if needed.
+&lt;br&gt;
+- SSH Public/Private key-pair generation and export.
+&lt;br&gt;
+- Automatic Session saving.
+&lt;br&gt;
+- Zoomable, Fit to Screen, and One to One scaling modes.
+&lt;br&gt;
+- Multi-touch control over remote mouse in Direct and Simulated Touchpad input modes.
+&lt;br&gt;
+- Full single-handed control over remote mouse in Single-Handed input mode.
+&lt;br&gt;
+- Multi-touch mouse clicks: tap to Left-click, two-finger tap to right-click, three-finger-tap to middle click.
+&lt;br&gt;
+- Multi-touch scrolling: two finger drag Up/Down, and Left/Right to scroll.
+&lt;br&gt;
+- On-screen meta and arrow keys which can be completely disabled from menu or stowed with on-screen button.
+&lt;br&gt;
+- Sending Text and arbitrary Key combinations when connected.
+&lt;br&gt;
+- Help with creating connections (\"Menu-&gt;Connection Help\") in connection screen.
+&lt;br&gt;
+- Help with input modes (\"Menu-&gt;More-&gt;Input Mode Help\") when connected.
+&lt;br&gt;
+- Using an available trackpad as Arrows instead of moving the mouse, and trackpad click as Ctrl, rotating D-pad/trackpad for BT keyboards.
+&lt;br&gt;
+- Multi-language support, as long as the VNC server has the necessary language layout enabled.
+&lt;br&gt;
+- Seamless remote machine resolution changes
+&lt;br&gt;
+- Full mouse support on Android 4.0+ devices, including right and middle click and scroll wheel.
+&lt;br&gt;
+&lt;br&gt;
+Planned features:
+&lt;br&gt;
+- Copy/Paste integration
+&lt;br&gt;
+- Sound
+&lt;br&gt;
+- Performance improvements
+&lt;br&gt;
+Known issues:
+&lt;br&gt;
+- Send text does not send some symbols.
+&lt;br&gt;
+</string>
+    <string name="spice_intro_title">aSPICE: 简洁，安全的 SPICE 客户端</string>
+    <string name="spice_main_screen_help_text">
+"When you first start aSPICE, you will see a connection configuration page. Here you can set up a new SPICE connection, or choose a preexisting one. The page is divided into two sections. The top section contains a drop-down list of the connection configurations you've created previously. The first time your run aSPICE, you will only be able to make a new connection. Next to the list is a Connect button. The Connect button will start the SPICE client with the currently selected configuration. Below that is where you configure your connection.
+
+ - Connection Type: Here you choose the SPICE connection type. Available connection types are:
+   (a) SPICE, which connects directly to a computer over the SPICE protocol.
+   (b) SPICE over SSH, which first tunnels your connection through a computer running an SSH server.
+
+ - Title: Each connection you create can have a nickname to easily identify it on the list.
+ 
+ - SSH Tunnel Settings: Available in SPICE over SSH mode.
+   (a) SSH Server/Port: The address and port of the SSH server that the connection will be tunnelled through. By default SSH listens on port 22.
+   (b) Username/Password: The username and password of the account on the SSH server. The password will be filled in on this page if you haven't quit bVNC since you last entered it.
+   (c) Manage Key/Use Key: A button to manage public/private keys, and a checkbox indicating whether to use a key rather than password to authenticate. If you use the Copy to Clipboard button after generating a key-pair, you should be able to paste the public key once connected to the VNC server (the clipboard is synchronized to the server).
+
+ - SPICE Connection Settings:
+   (a) SPICE Server/Port: This is where you enter the host name or IP address and port of the computer running the SPICE server that you wish to contact. In SPICE over SSH mode, this address is as seen from the SSH Server. If the SSH Server and SPICE server are the same physical computer, you can use localhost. SPICE servers typically listen on port 5900 and up.
+   (d) SPICE Password: This is where you enter the password set to protect your SPICE session. Secure storage is not used for passwords (they are in a database), and the password will be stored only if you check the "Keep" box. The password will be filled in on this page if you haven't quit aSPICE since you last entered it.
+
+ - Advanced settings: In this section you'll find any local device or SPICE performance tweaks
+ - Local Device Tweaks: These adjust the behavior of aSPICE on your device.
+   (a) Use D-Pad for arrows: If you prefer, you can use the D-Pad of your Bluetooth keyboard or arrows on your on-screen keyboard to send arrows to the SPICE server.
+   (b) Rotate D-Pad: Phones paired with a Bluetooth keyboard may need the keyboard's D-pad to be rotated anti-clockwise to send correct directions to the server.
+   (c) Local mouse pointer: If the pointer is invisible, select this to force it to be drawn by aSPICE.</string>
+    <string name="spice_password_hint">SPICE mima</string>
+    <string name="spice_server_empty">SPICE 服务器或者端口为空. 无法连接!</string>
+    <string name="spice_tls_port_hint">TLS 端口</string>
+    <string name="spice_username_hint">SPICE 用户名</string>
+
+    <string name="ssh_passphrase_hint">SSH 密码</string>
+    <string name="ssh_pubkey_button">管理公钥</string>
+    <string name="ssh_use_pubkey">使用密钥</string>
+    <string name="ssh_use_x11vnc">Auto Desktop</string>
+    <string name="ssh_x11vnc_customize">配置AutoX</string>
+
+    <string name="super_check">Super</string>
+
+    <string name="tap_disable">禁用</string>
+    <string name="tap_enable">启用</string>
+
+    <string name="username_caption">VNC 用户</string>
+    <string name="username_hint">UltraVNC MS Logon 用户名</string>
+    <string name="username_hint_optional">VNC 用户名 (可选)</string>
+    <string name="username_hint_ssh">SSH 用户名</string>
+    <string name="username_hint_vencrypt">VNC 用户名</string>
+
+    <string name="verification_code">校验码</string>
+    <string name="verification_code_message">请输入多因素身份验证验证码</string>
+
+    <string name="view_only">仅查看模式</string>
+
+    <string name="vnc_server_empty">VNC 服务器或者端口为空. 无法连接!</string>
+
+    <string name="warning_cert_does_not_match">提醒: 保存的 x509 证书或传入的签名与当前服务器证书不匹配! 这可能是中间人攻击. 如果您的密钥已经更改，请继续进行. </string>
+    <string name="copy_logcat">复制 Logcat 日志</string>
+    <string name="log_copied">Logcat 日志已复制到剪贴板。现在，您可以将其粘贴到电子邮件中或发到论坛上。发布之前，请仔细检查日志中是否包含个人数据。</string>
+    <string name="info_set_touchpad_input_mode">服务器不支持客户端模式鼠标输入, 而且当前的鼠标输入模式将无法正常工作。如果这种情况依然存在, 请确认虚拟机中是否安装 spice 工具或者从菜单切换到模拟触摸板输入模式。</string>
+</resources>

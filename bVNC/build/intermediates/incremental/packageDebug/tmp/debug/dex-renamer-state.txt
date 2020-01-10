@@ -1,0 +1,4 @@
+#Thu Jan 09 09:31:45 CST 2020
+base.0=/home/sivan/Downloads/software/remote-desktop-clients-master/bVNC/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

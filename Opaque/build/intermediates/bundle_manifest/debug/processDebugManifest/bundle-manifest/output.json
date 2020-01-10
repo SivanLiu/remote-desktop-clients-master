@@ -1,0 +1,1 @@
+[{"outputType":{"type":"BUNDLE_MANIFEST"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":1511,"versionName":"1.5.1","enabled":true,"outputFile":"Opaque-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.undatech.opaque","split":"","minSdkVersion":"14"}}]
